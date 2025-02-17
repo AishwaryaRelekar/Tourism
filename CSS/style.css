@@ -1,0 +1,430 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* navbar */
+.navbar {
+    padding: 13px 20px;
+    text-transform: uppercase;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #123456;
+}
+
+.nav-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.nav-brand>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.nav-menu {
+    padding-right: 16%;
+}
+.icon-loc {
+    color: goldenrod;
+    font-size: 0.7rem;
+}
+
+.icon-loc>span {
+    color: white;
+    font-size: 0.7rem;
+    margin-right: 1rem;
+}
+
+.search-bar {
+    width: 100px;
+    border: 1px solid white;
+    padding: 4px;
+    background-color: white;
+}
+
+input {
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 150px;
+    height: 10px;
+    color: black;
+}
+
+.icon-search {
+    color: black;
+}
+
+.nav-menu>.icon-loc,
+.search-bar {
+    display: inline;
+}
+
+.nav-menu>.search-bar>input {
+    margin-left: 4%;
+}
+
+.nav-menu>.call-us {
+    padding-top: 3%;
+    /* padding-right: 1rem; */
+    font-size: .85rem;
+}
+
+.nav-menu>.call-us>.text {
+    color: white;
+
+}
+
+.nav-menu>.call-us>.num {
+    color: goldenrod;
+}
+
+/* header  */
+.nav-menu1 {
+    margin-left: 15.3%;
+    padding: 0.5% 0%;
+}
+
+.nav-menu1>ul>li {
+    list-style: none;
+    display: inline;
+}
+
+.nav-menu1>ul>li>a {
+    text-decoration: none;
+    font-size: .94rem;
+    color: black;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    font-weight: light;
+}
+
+/* section1 */
+.bgimg {
+    background: linear-gradient(rgba(173, 216, 230, 0.164), rgba(173, 216, 230, 0.123)), url("/IMG/img1.jpg") center center no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+
+.cnt>h3 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-top: 14%;
+    font-weight: lighter;
+}
+
+.cnt>h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+}
+
+.container1 {
+    padding: 0% 16%;
+    margin: 0px auto;
+}
+
+.select-menu {
+    background-color: white;
+    width: 90%;
+    /* margin: 1% auto; */
+    padding: 3px 10px;
+    border-radius: 50px;
+}
+.select-menu form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.select-menu form select {
+    display: block;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    outline: none;
+    background: transparent;
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 6rem;
+    
+}
+
+.select-menu form button {
+    background-color: goldenrod;
+    width: 30%;
+    height: 7vh;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: -0.2rem;
+    margin-bottom: -0.19rem;
+    margin-right: -15rem;
+    border: 0;
+    outline: none;
+    color: white;
+    font-weight: bold;
+}
+.asia {
+    flex: .4;
+    border-right: .5px solid rgba(99, 99, 99, 0.425);
+
+}
+
+.asia1 {
+    flex: .4;
+    border: 0;
+}
+
+/* section2 */
+.header_cnt {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4%;
+}
+.text1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* card */
+.card-layout {
+    width: 32%;
+    height: 50vh;
+}
+
+.card {
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.24);
+}
+
+.card-img1 {
+    background: url("/IMG/b1.jpg") center center no-repeat;
+    background-size: cover;
+    height: 32vh;
+    width: 100%;
+}
+
+.card-img2 {
+    background: url("/IMG/b2.jpg") center center no-repeat;
+    background-size: cover;
+    height: 32vh;
+    width: 100%;
+}
+
+.card-img3 {
+    background: url("/IMG/b3.jpg") center center no-repeat;
+    background-size: cover;
+    height: 32vh;
+    width: 100%;
+}
+
+.card-img4 {
+    background: url("/IMG/b4.jpg") center center no-repeat;
+    background-size: cover;
+    height: 32vh;
+    width: 100%;
+}
+
+.card-img5 {
+    background: url("/IMG/b5.jpg") center center no-repeat;
+    background-size: cover;
+    height: 32vh;
+    width: 100%;
+}
+
+.card-img6 {
+    background: url("/IMG/b6.jpg") center center no-repeat;
+    background-size: cover;
+    height: 32vh;
+    width: 100%;
+}
+
+.card-body {
+    padding: 10px 5px;
+    background-color: rgba(221, 214, 214, 0.178);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-body>.des1 {
+    padding-left: 5px;
+}
+
+.card-body>.des2 {
+    padding-left: 30%;
+}
+
+.card-body>.des3 {
+    padding-left: 64%;
+}
+
+.card-body>.des4 {
+    padding-left: 54%;
+}
+
+.card-body>.des5 {
+    padding-left: 47%;
+}
+
+.card-body>.des6 {
+    padding-left: 48%;
+}
+
+.card-body>.des7 {
+    padding-left: 40%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    /* justify-content: space-between; */
+    margin: 2% 15%;
+}
+
+.container2 {
+    margin-top: -80px;
+}
+
+/* section3 */
+.img {
+    margin-top: -15px;
+    background: linear-gradient(rgba(0, 174, 255, 0.192), rgba(0, 0, 255, 0.322)),
+        url("/IMG/img\ \(12\).jpg") center center no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.brandcnt>h1 {
+    color: white;
+    text-align: center;
+    /* font-size: 2rem; */
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 4%;
+}
+
+.brandcnt>h5 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    /* font-size: 1rem; */
+}
+
+.card-icon {
+    color: goldenrod;
+    font-size: 2.6rem;
+    padding: 4%;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    width: 25%;
+    background-color: white;
+    margin: 2% auto;
+}
+
+.card-body1>h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding-top: 3%;
+}
+
+.card-body1>p {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 1rem;
+}
+
+/* section4 */
+.contact-info>h1 {
+    text-align: center;
+    text-transform: uppercase;
+    /* font-size: 1.6rem; */
+    font-weight: bolder;
+    padding-top: 4%;
+}
+
+.contact-info>h5 {
+    /* font-size: 0.8rem; */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-icon1 {
+    font-size: 4rem;
+    color: rgba(128, 128, 128, 0.466);
+    text-align: center;
+}
+
+.card-body2>p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card-body2>h4 {
+    color: goldenrod;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 7%;
+}
+
+/* footer  */
+footer {
+    height: 25vh;
+    background-color: #123456;
+    margin-top: -6%;
+}
+
+.fcnt1 {
+    text-align: center;
+    color: white;
+    /* white-space: pre; */
+    padding-top: 3%;
+    font-size: .9rem;
+}
+
+.fcnt2 {
+    text-align: center;
+    color: white;
+    font-size: .9rem;
+}
+
+.row5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5%;
+    margin-left: 45%;
+}
+
+.con1,
+.con2,
+.con3,
+.con4,
+.con5 {
+    /* margin-left: 45%; */
+    border-radius: 50%;
+    background-color: white;
+    width: 3.3%;
+    padding: 0.5%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+/* .container-icon{
+  margin-left: 42%;
+} */
